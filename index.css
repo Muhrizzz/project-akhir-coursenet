@@ -39,6 +39,7 @@ body {
 {
   background-color: white;
   color: #06161D;
+  box-shadow: 0px 0px 50px white;
 }
 .contact-div {
   top: 48px;
@@ -52,6 +53,7 @@ body {
 {
   background-color: white;
   color: #06161D;
+  box-shadow: 0px 0px 50px white;
 }
 .hello-my-name-is {
   top: 227px;
