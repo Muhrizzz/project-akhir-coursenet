@@ -107,6 +107,7 @@ body {
   display: inline-block;
   width: 450px;
   cursor: auto;
+  text-align: left;
 }
 .download-cv-div,
 .view-on-dribbble,
@@ -116,6 +117,16 @@ body {
   left: 211px;
   text-decoration: underline;
   display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.download-cv-div:hover,
+.view-on-dribbble:hover,
+.view-on-dribbble1:hover
+{
+  background-color: #212121;
+  color: white;
+  box-shadow: 0px 0px 20px #212121;
 }
 .view-on-dribbble,
 .view-on-dribbble1 {
@@ -132,6 +143,8 @@ body {
   white-space: pre-wrap;
   text-align: center;
   display: inline-block;
+  width: 350px;
+  font-weight: 200;
 }
 .able-to-establish-good-communi {
   left: 477px;
