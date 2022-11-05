@@ -61,9 +61,6 @@ body {
   font-size: var(--font-size-3xl);
   color: var(--color-tan);
 }
-.ammad-span {
-  color: var(--color-white);
-}
 .muhammad-rizky-ardiansyah {
   position: absolute;
   top: 259px;
@@ -138,28 +135,38 @@ body {
 .able-to-establish-good-communi,
 .good-suffice-to-manage-the-tim {
   position: absolute;
-  top: 3208px;
-  left: 98px;
+  top: 3150px;
+  left: 130px;
   white-space: pre-wrap;
   text-align: center;
   display: inline-block;
-  width: 350px;
+  width: 250px;
   font-weight: 200;
 }
 .able-to-establish-good-communi {
-  left: 477px;
+  left: 450px;
+  width: 250px;
+  text-align: center;
 }
-.capable-adapt-to-the-work-envi,
-.enthusiasm-to-learn-new-things {
+.enthusiasm-to-learn-new-things{
   position: absolute;
-  top: 3208px;
-  left: 755px;
+  top: 3150px;
+  left: 1060px;
+  white-space: pre-wrap;
   text-align: center;
   display: inline-block;
+  width: 250px;
+  font-weight: 200;
 }
 .capable-adapt-to-the-work-envi {
-  left: 1079px;
+  position: absolute;
+  top: 3150px;
+  left: 760px;
   white-space: pre-wrap;
+  text-align: center;
+  display: inline-block;
+  width: 250px;
+  font-weight: 200;
 }
 .redesign-alpukat-betawi-ios-ve,
 .simple-landing-page {
@@ -447,7 +454,7 @@ body {
 .huge-icon1 {
   position: absolute;
   height: 0.71%;
-  width: 1.94%;
+  width: 80px;
   top: 78.46%;
   right: 76.11%;
   bottom: 20.83%;
@@ -478,4 +485,60 @@ body {
 }
 .web-portofolio-2.animate {
   animation: 0.25s ease 0s 1 normal forwards slide-in-left;
+}
+.selected-projects-div {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 3em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+
+/*text animation*/
+.muhammad-rizky-ardiansyah, span {
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Poppins', monospace;  
+  font-size: 28px;
+  color: #06161D;
+
+  
+}
+
+/* Animation */
+.muhammad-rizky-ardiansyah, span {
+  animation: animated-text 4s steps(30,end) 1s 1 normal both,
+             animated-cursor 600ms steps(30,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 418px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: #a27b5c}
+  to{border-right-color: transparent;}
 }
