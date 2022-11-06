@@ -22,7 +22,7 @@ body {
 }
 .project-div {
   top: 48px;
-  left: 1097px;
+  left: 1050px;
   font-size: var(--font-size-2xl);
   font-family: var(--font-inter);
   cursor: pointer;
@@ -42,7 +42,7 @@ body {
 }
 .contact-div {
   top: 48px;
-  left: 1227px;
+  left: 1157px;
   font-size: var(--font-size-2xl);
   font-family: var(--font-inter);
   cursor: pointer;
