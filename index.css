@@ -67,31 +67,23 @@ body {
   font-size: var(--font-size-3xl);
   color: var(--color-tan);
 }
-.muhammad-rizky-ardiansyah {
-  position: absolute;
-  top: 259px;
-  left: 156px;
-  font-size: var(--font-size-7xl);
-  display: inline-block;
-  color: var(--color-tan);
-}
+
 .selected-projects-div,
 .tools-skills,
 .what-im-good-at {
-  position: absolute;
-  top: 2825px;
-  left: 537px;
+  position: relative;
+  top: 2800px;
+  left: 477px;
   font-size: var(--font-size-7xl);
   display: inline-block;
 }
-.selected-projects-div,
 .tools-skills {
-  top: 3373px;
-  left: 582px;
+  top: 3330px;
+  left: 80px;
 }
 .selected-projects-div {
-  top: 864px;
-  left: 156px;
+  top: 770px;
+  left: 400px;
 }
 .based-in-jakarta {
   margin-block-start: 0;
@@ -131,8 +123,7 @@ body {
   color: white;
   box-shadow: 0px 0px 20px #212121;
 }
-.view-on-dribbble,
-.view-on-dribbble1 {
+.view-on-dribbble{
   top: 1738px;
 }
 .view-on-dribbble1 {
@@ -198,12 +189,9 @@ body {
   text-align: center;
   display: inline-block;
 }
-.adaptable-div,
-.eager-to-learn,
 .teamwork-div {
-  left: 515px;
+  left: 520px;
 }
-.adaptable-div,
 .eager-to-learn {
   left: 813px;
 }
@@ -247,8 +235,7 @@ body {
   height: 22px;
   object-fit: cover;
 }
-.image-15-icon,
-.image-16-icon {
+.image-15-icon {
   top: 1732px;
   left: 172px;
   width: 29px;
@@ -256,6 +243,8 @@ body {
 }
 .image-16-icon {
   top: 2640px;
+  width: 29px;
+  height: 29px;
 }
 .ellipse-icon,
 .polygon-icon {
@@ -391,14 +380,11 @@ body {
   height: 50px;
   object-fit: cover;
 }
-.image-28-icon,
-.image-29-icon,
-.rectangle-icon {
+.image-29-icon{
   left: 485px;
   width: 50px;
 }
-.image-28-icon,
-.rectangle-icon {
+.image-28-icon{
   top: 3467px;
   left: 904px;
 }
@@ -435,18 +421,12 @@ body {
   height: 186px;
   object-fit: cover;
 }
-.image-40-icon,
-.mask-group-icon2,
-.mask-group-icon3,
-.mask-group-icon4 {
+.mask-group-icon2{
   left: 1105px;
 }
-.image-40-icon,
-.mask-group-icon3,
-.mask-group-icon4 {
+.mask-group-icon3 {
   left: 481px;
 }
-.image-40-icon,
 .mask-group-icon4 {
   left: 789px;
 }
@@ -516,39 +496,56 @@ body {
   }
 }
 
-
-/*text animation*/
-.muhammad-rizky-ardiansyah, span {
-  border-right: solid 3px rgba(0,255,0,.75);
-  white-space: nowrap;
-  overflow: hidden;    
-  font-family: 'Poppins', monospace;  
-  font-size: 28px;
-  color: #06161D;
-
-  
+/* animasi tools and skills */
+.tools-skills{
+position: relative;
+font-family: var(--font-poppins);
+text-transform: uppercase;
+letter-spacing: 4px;
+overflow: hidden;
+background: linear-gradient(90deg, #000, #fff, #000);
+background-repeat: no-repeat;
+background-size: 80%;
+animation: animate 3s linear infinite;
+-webkit-background-clip: text;
+-webkit-text-fill-color: rgba(255, 255, 255, 0);
+top: 3330px;
+left: 80px;
 }
 
-/* Animation */
-.muhammad-rizky-ardiansyah, span {
-  animation: animated-text 4s steps(30,end) 1s 1 normal both,
-             animated-cursor 600ms steps(30,end) infinite;
+
+/* animasi what im good at */
+.what-im-good-at {
+  position: relative;
+  font-family: var(--font-poppins);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 
-/* text animation */
-
-@keyframes animated-text{
-  from{width: 0;}
-  to{width: 418px;}
-}
-
-/* cursor animations */
-
-@keyframes animated-cursor{
-  from{border-right-color: #a27b5c}
-  to{border-right-color: transparent;}
-}
-
+/* animasi nama */
+.muhammad-rizky-ardiansyah {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 4s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  top: 259px;
+  left: 156px;
+  font-size: var(--font-size-6xl);
+  }
 
 /*animasi halo*/
 .hello-my-name-is {
