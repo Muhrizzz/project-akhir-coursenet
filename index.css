@@ -59,6 +59,7 @@ body {
   left: 217px;
   font-size: var(--font-size-3xl);
   color: var(--color-tan);
+
 }
 .hola
 {
@@ -82,7 +83,7 @@ body {
   left: 80px;
 }
 .selected-projects-div {
-  top: 770px;
+  top: 750px;
   left: 400px;
 }
 .based-in-jakarta {
@@ -225,6 +226,12 @@ body {
   height: 710px;
   object-fit: cover;
 }
+.contoh-2-web-1:hover {
+  transform: scale(0.9);
+  transition: 0.7s;
+}
+
+
 .image-12-icon,
 .image-15-icon,
 .image-16-icon {
@@ -403,12 +410,23 @@ body {
   height: 710px;
   object-fit: cover;
 }
+.shadow-overlay-two-iphone-13-o-icon:hover {
+  transform: scale(0.9);
+  transition: 0.7s;
+}
+
 .image-34-icon {
   top: 246px;
   left: 861px;
   width: 380px;
   height: 513px;
 }
+
+.image-34-icon:hover{
+  transform: scale(0.9);
+  transition: 0.7s;
+}
+
 .image-40-icon,
 .mask-group-icon1,
 .mask-group-icon2,
@@ -479,7 +497,7 @@ body {
   font-size: 3em;
   letter-spacing: 4px;
   overflow: hidden;
-  background: linear-gradient(90deg, #000, #fff, #000);
+  background: linear-gradient(90deg, #06161d, #fff, #06161d);
   background-repeat: no-repeat;
   background-size: 80%;
   animation: animate 3s linear infinite;
@@ -487,6 +505,7 @@ body {
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 
+/* animamsi nama, selected project, what i'm good at, tools and skills */
 @keyframes animate {
   0% {
     background-position: -500%;
@@ -503,7 +522,7 @@ font-family: var(--font-poppins);
 text-transform: uppercase;
 letter-spacing: 4px;
 overflow: hidden;
-background: linear-gradient(90deg, #000, #fff, #000);
+background: linear-gradient(90deg, #06161d, #fff, #06161d);
 background-repeat: no-repeat;
 background-size: 80%;
 animation: animate 3s linear infinite;
@@ -521,7 +540,7 @@ left: 80px;
   text-transform: uppercase;
   letter-spacing: 4px;
   overflow: hidden;
-  background: linear-gradient(90deg, #000, #fff, #000);
+  background: linear-gradient(90deg, #06161d, #fff, #06161d);
   background-repeat: no-repeat;
   background-size: 80%;
   animation: animate 3s linear infinite;
@@ -536,10 +555,10 @@ left: 80px;
   text-transform: uppercase;
   letter-spacing: 4px;
   overflow: hidden;
-  background: linear-gradient(90deg, #000, #fff, #000);
+  background: linear-gradient(90deg, #a27b5c, #06161d, #a27b5c);
   background-repeat: no-repeat;
   background-size: 80%;
-  animation: animate 4s linear infinite;
+  animation: animate 5s linear infinite;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
   top: 259px;
@@ -554,6 +573,7 @@ left: 80px;
   text-align: left;
   height: 36px;
   vertical-align: -2px;
+  
 }
 
 .hello-my-name-is > div {
@@ -562,7 +582,6 @@ left: 80px;
   margin-left:-30px;
   position:absolute;
   font-weight:500;   
-  /*box-shadow: 0px 60px 25px -20px rgba(0,0,0,0.5);*/
 }
 
 .hello-my-name-is > div:nth-child(1) {
